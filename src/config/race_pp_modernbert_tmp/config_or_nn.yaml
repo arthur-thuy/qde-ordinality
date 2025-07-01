@@ -1,0 +1,6 @@
+LOADER:
+  OUTPUT_TYPE: "ordinal_or_nn"
+
+TRAIN:
+  LR: 1e-5
+  WEIGHT_DECAY: 8e-6

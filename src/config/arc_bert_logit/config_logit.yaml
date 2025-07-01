@@ -1,0 +1,10 @@
+LOADER:
+  OUTPUT_TYPE: "ordinal_logit"
+
+TRAIN:
+  LR: 5.0601784765425995e-05
+  WEIGHT_DECAY: 0.006355312061110704
+  MAX_STEPS: 717  # = 2293*10/32
+  BATCH_SIZE: 32
+  LR_MULTIPLIER: 100
+  PARAMS_HIGH_LR_NAMES: ["classifier.deltas", "classifier.linear.bias"]  # ["classifier.deltas"]
