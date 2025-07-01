@@ -1,5 +1,0 @@
-LOADER:
-  OUTPUT_TYPE: "regression"
-
-MODEL:
-  NAME: "majority"
