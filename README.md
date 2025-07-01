@@ -1,4 +1,4 @@
-# qde-ordinal
+# Ordinality in Discrete-level Question Difficulty Estimation
 
 This repository contains the code to reproduce the results of the paper _Ordinality in Discrete-level Question Difficulty Estimation: Introducing Balanced DRPS and OrderedLogitNN_.
 
