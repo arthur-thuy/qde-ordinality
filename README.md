@@ -2,13 +2,7 @@
 
 This repository contains the code to reproduce the results of the paper _Ordinality in Discrete-level Question Difficulty Estimation: Introducing Balanced DRPS and OrderedLogitNN_.
 
-The paper is available here as an arXiv preprint.
-
-```
-cd "/home/abthuy/Documents/PhD research/qde-ordinal/src"
-conda activate qde_ordinal
-```
-
+The paper is available [here](https://arxiv.org/abs/2507.00736) as an arXiv preprint.
 
 ## Workflow
 
@@ -33,10 +27,15 @@ python main.py arc_bert_bal_rps
 Finally, inspect the results by running the `analysis.ipynb` notebook.
 
 
-<!-- ## Cite as
+## Cite as
 
 If you use this code in your workflow or scientific publication, please cite the corresponding paper:
 ```
-TODO: add bibtex entry
-``` -->
-
+@article{thuy2025ordinality,
+  title={Ordinality in Discrete-level Question Difficulty Estimation: Introducing Balanced DRPS and OrderedLogitNN},
+  author={Thuy, Arthur and Loginova, Ekaterina and Benoit, Dries F},
+  journal={arXiv preprint arXiv:2507.00736},
+  year={2025},
+  doi={10.48550/arXiv.2507.00736}
+}
+```
